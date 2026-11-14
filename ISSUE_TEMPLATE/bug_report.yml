@@ -1,0 +1,46 @@
+name: Bug report
+description: Something does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please do not include passwords, tokens, customer data or mailbox contents. Security problems go through [SECURITY.md](https://github.com/abnormalhq/.github/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, including any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page address, or the app and its version.
+      placeholder: https://webmail.abnormalhq.com/…, Abnormal Mail 0.12.0 on macOS 26, …
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser, operating system and anything else relevant
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove anything private first.

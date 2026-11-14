@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Service status
+    url: https://status.abnormalhq.com
+    about: Check here first if mail, webmail or the shop is not working.
+  - name: Help with a mailbox or an order
+    url: mailto:support@abnormalhq.com
+    about: Account, order, payment and redeem code questions go to support, not to an issue.
+  - name: Report a security vulnerability
+    url: https://github.com/abnormalhq/.github/blob/main/SECURITY.md
+    about: Please report security problems privately, never in a public issue.
