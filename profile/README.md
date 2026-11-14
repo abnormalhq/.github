@@ -1,6 +1,6 @@
 # Abnormal
 
-An email service: mailboxes on our domains or yours, webmail, desktop and mobile clients, a management API and a CLI, run on [Stalwart](https://stalw.art/) and Cloudflare Workers.
+An email service: mailboxes on our domains or yours, webmail, desktop and mobile clients, a management API and a CLI.
 
 - **Website and shop**: <https://abnormalhq.com>
 - **Webmail**: <https://webmail.abnormalhq.com>
