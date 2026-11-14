@@ -2,6 +2,8 @@
 
 Thanks for helping. These rules apply to every abnormalhq repository; a repository's own README or CONTRIBUTING file adds to them and wins where they differ.
 
+Everyone taking part is expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Before you start
 
 - For anything larger than a small fix, open an issue first so the approach can be agreed before code is written.

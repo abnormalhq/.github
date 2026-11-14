@@ -5,6 +5,7 @@ Organization-wide defaults for [abnormalhq](https://github.com/abnormalhq).
 | Path                                                           | What it does                                                                                    |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [`profile/README.md`](profile/README.md)                       | The organization's profile page on GitHub (shown only while this repository is public).         |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)                     | The Contributor Covenant 2.1, and where to report a breach of it.                               |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md)                           | How to propose a change: branches, checks, Conventional Commits.                                |
 | [`SECURITY.md`](SECURITY.md)                                   | How to report a vulnerability privately.                                                        |
 | [`SUPPORT.md`](SUPPORT.md)                                     | Where to get help with a mailbox, an order or the service.                                      |
