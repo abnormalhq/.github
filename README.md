@@ -13,3 +13,7 @@ Organization-wide defaults for [abnormalhq](https://github.com/abnormalhq).
 | [`pull_request_template.md`](pull_request_template.md)         | The default pull request description.                                                           |
 
 GitHub uses a file here only for a repository that has no file of the same kind of its own (in its root, `docs/` or `.github/`). A repository that needs something different adds its own copy, which replaces this one for that repository only; issue templates are replaced as a whole folder, not form by form.
+
+## License
+
+The files in this repository are under the [MIT License](LICENSE). GitHub does not carry a license over to other repositories the way it does the files above, so each repository states its own.
