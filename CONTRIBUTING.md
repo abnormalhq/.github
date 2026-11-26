@@ -13,6 +13,7 @@ Everyone taking part is expected to follow the [Code of Conduct](CODE_OF_CONDUCT
 
 1. Branch from `main`. Keep one pull request to one change.
 2. Run the repository's checks before pushing; in most repositories that is `pnpm check` (lint, typecheck and tests), with the Node.js version from `.node-version` and pnpm from the `packageManager` field. CI runs the same checks on every pull request.
+   JavaScript and TypeScript projects are managed with pnpm only: install, run scripts and one-off tools with `pnpm`, `pnpm exec` and `pnpm dlx` (not `npm`, `npx` or `yarn`), commit `pnpm-lock.yaml` and never a `package-lock.json`, and set up pnpm in CI with `pnpm/action-setup`.
 3. Update the README or `docs/` in the same pull request when behavior, configuration or an API changes. Documentation and code comments are written in English.
 4. Open the pull request against `main` and fill in the template: what changed, why, and how it was tested.
 
